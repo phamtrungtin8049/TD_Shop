@@ -1,0 +1,71 @@
+#wrapper{
+    min-height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.styled-text {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(91, 216, 254);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+body{
+    background:url(../images/50-anh-nen-trang-scaled.jpg);
+    background-size: cover;
+    background-position-y: -40px;
+    background-repeat: no-repeat;
+}
+#wrapper{
+        min-height:80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#form-login{
+    max-width: 600px;
+    background: rgb(168, 116, 221) ( 0, 0, 0, 0,8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgb(98, 133, 237);
+}
+.form-heading{
+    font-size: 40px;
+    color: rgb(31, 69, 221);
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.form-group{
+    border-bottom: 1px solid #38b8eb;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-group i{
+    color: rgb(66, 196, 240);
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.form-input::placeholder{
+    color: rgb(98, 214, 249);
+}
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: black;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+}
+.form-submit:hover{
+    border: 1px solid rgb(98, 133, 237);
+}
